@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Telefonica';
+    src: url('../Estilos/FuenteTelefonica/Telefonica.eot');
+    src: url('../Estilos/FuenteTelefonica/Telefonica.eot?#iefix') format('embedded-opentype'), 
+         url('../Estilos/FuenteTelefonica/Telefonica.woff2') format('woff2'), 
+         url('../Estilos/FuenteTelefonica/Telefonica.woff') format('woff'), 
+         url('../Estilos/FuenteTelefonica/Telefonica.ttf') format('truetype'),
+         url('../Estilos/FuenteTelefonica/Telefonica.svg#Telefonica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.login-title {
+    text-align: center;
+}
+
+body {
+    font-family: "Telefonica";
+    background-color: #D3D3D3;
+    min-height: 100vh;
+    margin-bottom: 0;
+}
+
+.brand-wrapper {
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
+
+.logo {
+    height: 25px;
+    width: auto;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 68px 100px;
+    background-color: #fff;
+}
+
+@media (max-width: 991px) {
+    .section-wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-height: 100vh;
+    }
+    .wrapper {
+        width: 100%;
+    }
+}
+
+.login-content {
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+hr {
+    background-color: #B7B7B7;
+}
+
+.login-copyright {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 100%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #b0adad;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 0;
+    padding: 9px 5px;
+    min-height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.form-control::placeholder {
+    color: #b0adad;
+}
+
+.login-btn {
+    padding: 13px 20px;
+    background-color: #003245;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+.login-btn:hover {
+    border: 1px solid #00EEFF;
+    background-color: #00EEFF;
+    color: #003245;
+}
+
+title {
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}

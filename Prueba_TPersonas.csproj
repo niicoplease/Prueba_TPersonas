@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\estilo.css" />
+    <None Include="wwwroot\img\logo-movistar.png" />
+    <None Include="wwwroot\img\logo-telefonica.png" />
+    <None Include="wwwroot\img\span-line.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.5.2" />
+  </ItemGroup>
+
+</Project>
