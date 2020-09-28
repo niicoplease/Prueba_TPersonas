@@ -29,6 +29,8 @@ namespace Prueba_TPersonas.Controllers
             return View("Privacy");
         }
 
+        public void MetodoPrueba() { }
+
         public IActionResult Privacy()
         {
             return View();
