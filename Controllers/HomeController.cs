@@ -26,12 +26,12 @@ namespace Prueba_TPersonas.Controllers
         [HttpPost]
         public IActionResult Login()
         {
-            return View("Privacy");
+            return View("Inicio");
         }
 
         public void MetodoPrueba() { }
 
-        public IActionResult Privacy()
+        public IActionResult Inicio()
         {
             return View();
         }
